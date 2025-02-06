@@ -6,10 +6,11 @@ import json
 import random
 import pickle
 from nltk.stem import WordNetLemmatizer
-import nltk
 
 
 nltk.download('punkt')  
+nltk.download('punkt_tab') 
+
 
 
 app = Flask(__name__)
