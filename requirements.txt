@@ -1,0 +1,19 @@
+# Flask for web application
+Flask==3.0.0
+Flask-Cors==4.0.0  # To handle CORS issues if needed
+
+# NLP preprocessing
+nltk==3.8.1
+numpy==1.26.4
+pandas==2.1.4
+scikit-learn==1.3.2  # For encoding labels and text processing
+
+# Deep Learning (ANN, LSTM, GRU)
+tensorflow==2.15.0  # For neural network model
+keras==2.15.0       # Keras API for TensorFlow models
+
+# Vectorization and Embeddings (if used)
+sentence-transformers==2.2.2  # For word embeddings (if needed)
+
+# Additional Utilities
+gunicorn==21.2.0  # For production deployment
