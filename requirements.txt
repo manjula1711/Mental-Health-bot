@@ -17,4 +17,4 @@ sentence-transformers  # For word embeddings (if needed)
 
 # Additional Utilities
 gunicorn  # For production deployment
-python
+python-3.10
