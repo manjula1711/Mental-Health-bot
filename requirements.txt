@@ -17,3 +17,4 @@ sentence-transformers  # For word embeddings (if needed)
 
 # Additional Utilities
 gunicorn  # For production deployment
+python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
