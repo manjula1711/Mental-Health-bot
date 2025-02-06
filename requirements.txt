@@ -10,11 +10,10 @@ scikit-learn  # For encoding labels and text processing
 
 # Deep Learning (ANN, LSTM, GRU)
 tensorflow  # For neural network model
-keras     # Keras API for TensorFlow models
+keras       # Keras API for TensorFlow models
 
 # Vectorization and Embeddings (if used)
 sentence-transformers  # For word embeddings (if needed)
 
 # Additional Utilities
 gunicorn  # For production deployment
-python-3.10
