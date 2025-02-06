@@ -273,3 +273,5 @@ for i, acc in enumerate(accuracies):
 # Show the plot
 plt.ylim(0, 100)  # Set y-axis limit
 plt.show()
+
+model_gru.save("gru_model.h5")
